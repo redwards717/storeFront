@@ -1,0 +1,38 @@
+header{
+    background-image:url('storeSitePics/junk.jpg');
+    height: 200px;
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    text-align: right;
+    right: 200px;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-image: url('storeSitePics/rust.jpg');
+    margin: 0px;
+    padding: 0px;
+}
+/* .rotate90{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+} */
+.item{
+    border: solid 1px black;
+    background-color: grey;
+    display: inline-block;
+    width: 30%;
+    margin: 50px 50px 50px 50px;
+    z-index: 1;  
+}
+.store{
+    border: solid 1px black;
+    margin: 0px 550px 0px 150px;
+    background-color: rgba(224, 255, 255, 0.5);
+    /* opacity: .5; */
+    z-index: 0;
+}
